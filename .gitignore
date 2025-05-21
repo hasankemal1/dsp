@@ -1,0 +1,60 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sbr
+*.sdf
+*.cache
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.db
+*.opendb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Others
+*.pyc
+*.DS_Store
+*.bak
+*.tmp
+
+# Ignore generated files
+*.pch
+*.res
+*.manifest
+
+# Ignore ImGui-SFML and ImPlot build artifacts (if any)
+imgui.ini
+ImPlot.ini
+
+# Ignore vcpkg build folders (if used)
+vcpkg_installed/
+out/
